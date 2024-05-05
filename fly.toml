@@ -1,0 +1,20 @@
+# fly.toml app configuration file generated for my-leptos-app-withered-cherry-9607 on 2024-05-05T22:12:16+08:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = 'my-leptos-app-withered-cherry-9607'
+primary_region = 'hkg'
+
+[build]
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = true
+  auto_start_machines = true
+
+[[vm]]
+  memory = '1gb'
+  cpu_kind = 'shared'
+  cpus = 1
