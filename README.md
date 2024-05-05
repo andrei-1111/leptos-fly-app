@@ -27,7 +27,7 @@ Of course, you should explore around the project structure, but the best place t
 
 ## Running your project
 
-`cargo leptos watch`  
+`cargo leptos watch`
 By default, you can access your local project at `http://localhost:3000`
 
 ## Installing Additional Tools
@@ -70,3 +70,9 @@ This may be useful for integrating external tools which require a static site, e
 ## Licensing
 
 This template itself is released under the Unlicense. You should replace the LICENSE for your own application with an appropriate license if you plan to release it publicly.
+
+## Notes on usage and installation fly
+https://book.leptos.dev/deployment/ssr.html#deploy-to-flyio
+
+## Update fly version
+`flyctl version update`
